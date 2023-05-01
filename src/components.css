@@ -1,0 +1,206 @@
+@media (max-width: 600px) {
+    .login-wrapper .login {
+        min-width: 60%;
+    }
+    .login-wrapper .login button {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .dashboard-wrapper .welcome {
+        text-align: left !important;
+    }
+    .dashboard-wrapper .welcome p {
+        font-size: 15px !important;
+    }
+    .dashboard-wrapper .wallet-wrapper .wallet {
+        width: 80% !important;
+    }
+    .dashboard-wrapper .wallet-wrapper .wallet img {
+        width: 60px !important;
+        margin: auto;
+    }
+    .dashboard-wrapper .wallet-wrapper .wallet .wallet-info p {
+        font-size: 20px !important;
+    }
+    .dashboard-wrapper .wallet-wrapper {
+        flex-direction: column !important;
+        gap: 10px !important;
+    }
+    .register-wrapper .register {
+        min-width: 60%;
+    }
+    .register-wrapper .register h3 {
+        font-size: 22px !important;
+        margin-bottom: -5px;
+    }
+    .register-wrapper .register button {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    
+}
+
+/* * {
+    outline: 1px solid red;
+} */
+
+/* //Login */
+.login-wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper .login {
+    width: 40%;
+    background-color: #043838;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #757575;
+}
+.login-wrapper .login h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #00ffff;
+}
+.login-wrapper .login p {
+    color: #ff0000;
+    text-align: center;
+    font-size: 14px;
+}
+.login-wrapper .login input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 5px;
+    background-color: #EEEEEE;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.login-wrapper .login button {
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 5px;
+}
+.login-wrapper .login a {
+    text-align: right;
+    font-size: 15px;
+    color: #7676f1;
+}
+
+/* //Dashboard */
+.dashboard-wrapper {
+    width: 100%;
+}
+.dashboard-wrapper .welcome {
+    text-align: left;
+    padding: 20px;
+}
+.dashboard-wrapper .welcome p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.dashboard-wrapper .wallet-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.dashboard-wrapper .wallet-wrapper .wallet {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    padding: 10px 20px;
+    border: 1px solid #4b5252;
+    border-radius: 5px;
+    width: 50%;
+    background-color: #043838;
+}
+.dashboard-wrapper .wallet-wrapper .wallet img {
+    width: 80px;
+    margin: auto;
+}
+.dashboard-wrapper .wallet-wrapper .wallet .wallet-info p {
+    font-size: 30px;
+    color: #EEEEEE;
+}
+.dashboard-wrapper button {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: 1px solid #043838;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #EEEEEE;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* //Register */
+.register-wrapper {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-wrapper .register {
+    width: 40%;
+    background-color: #043838;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #757575;
+}
+.register-wrapper .register h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #00ffff;
+}
+.register-wrapper .register p {
+    font-size: 18px;
+    text-align: center;
+    color: #00ffff;
+}
+.register-wrapper .register input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 5px;
+    background-color: #EEEEEE;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.register-wrapper .register button {
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #00ffff;
+    color: #000000;
+    border-radius: 5px;
+}
+.register-wrapper .register a {
+    text-align: right;
+    font-size: 15px;
+    color: #7676f1;
+}
